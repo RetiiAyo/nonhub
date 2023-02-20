@@ -85,7 +85,7 @@ function NonHub.DefaultFunctions.Initialize()
 	local screengui_0000 = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui)
 	screengui_0000.Name = "__nonhub"
 	NonHub.Ui.ScreenGui["screengui_0000"] = {Name = "__nonhub"}
-	NonHub.DefaultFunctions.Print(screengui_0000.." was created by default")
+	NonHub.DefaultFunctions.Print(screengui_0000.Name.." was created by default")
 
 	NonHub.DefaultFunctions.Print("Successfully initialized.")
 end
